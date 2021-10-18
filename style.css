@@ -1,0 +1,461 @@
+@media only screen and (max-width: 600px) {
+
+    body {
+        background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        font-family: 'Lato', 'sans-serif';
+        font-size: 14px;
+    }
+    
+    h1,h2,h3 {
+        font-family: 'Montserrat-bold', sans-serif;
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    h2 {
+        font-size: 2.2rem;
+    }
+
+    p {
+        max-width: 70ch;
+        line-height: 1.5;
+        font-size: 1.2rem;
+    }
+    
+    header {
+        height: 55vh;
+        background-image: url('/assets/img/studentsbg.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        margin-bottom: 6rem;
+    }
+    
+    header > div {
+        background-color: #c5192d;
+        position: absolute;
+        color: white;
+        text-align: center;
+        padding: 2rem;
+        max-width: 95vw;
+        box-sizing: border-box;
+        bottom: -4rem;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        overflow-wrap: break-word;
+    }
+    
+    main {
+        box-shadow: 0px 0px 0px 1px darkgrey;
+        background: whitesmoke;
+        max-width: 95vw;
+        margin: auto;
+        margin-bottom: 2rem;
+        overflow-wrap: break-word;
+        }
+    
+    #intro-container {
+        background-color: #c5192d;
+        max-width: 95vw;
+        margin: auto;
+        padding: 2rem;
+        box-sizing: border-box;
+        list-style: none;
+        border-bottom: 1px solid darkgrey;
+    }
+
+    li {
+        max-width: 70ch;
+        line-height: 1.5;
+        font-size: 1.2rem;
+        padding-left: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    li:nth-child(1)::marker {
+        content: "\1F64C";
+    }
+
+    li:nth-child(2)::marker {
+        content: "\1F3EB";
+    }
+
+    li:nth-child(3)::marker {
+        content: "\1F4DA";
+    }
+
+    article:nth-child(2) {
+        padding: 2rem;
+        margin: auto;
+        max-width: 95vw;
+        border-bottom: 1px solid darkgrey;
+    }
+
+    article:nth-child(3) {
+        padding-left: 2rem;
+        padding-top: 2rem;
+        margin: auto;
+        max-width: 95vw;
+        border-bottom: 1px solid darkgrey;
+    }
+
+    article:nth-child(4) {
+        padding-left: 2rem;
+        padding-top: 2rem;
+        margin: auto;
+        max-width: 95vw;
+    }
+
+    img {
+        max-width: 80vw;
+        padding-bottom: 2rem;
+    }
+
+    footer {
+        background-color: #c5192d;
+        color: white;
+        margin: auto;
+        text-align: center;
+        padding: 2rem;
+        overflow-wrap: break-word;
+        box-sizing: border-box;
+        max-width: 95vw;
+    }
+
+    a:link {
+        color:white;
+    }
+
+}
+
+@media only screen and (min-width: 600px) and (max-width: 960px) {
+    body {
+        background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        font-family: 'Lato', 'sans-serif';
+        font-size: 16px;
+    }
+
+    h1,h2,h3 {
+        font-family: 'Montserrat-bold', sans-serif;
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    h2 {
+        font-size: 2.2rem;
+    }
+
+    p {
+        max-width: 70ch;
+        line-height: 1.5;
+        font-size: 1.2rem;
+    }
+
+    header {
+        height: 65vh;
+        background-image: url('/assets/img/studentsbg.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        margin-bottom: 6rem;
+    }
+    
+    header > div {
+        background-color: #c5192d;
+        position: absolute;
+        color: white;
+        text-align: center;
+        padding: 2rem;
+        max-width: 85vw;
+        box-sizing: border-box;
+        bottom: -4rem;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        overflow-wrap: break-word;
+    }
+    
+    main {
+        box-shadow: 0px 0px 0px 1px darkgrey;
+        background: whitesmoke;
+        max-width: 85vw;
+        margin: auto;
+        margin-bottom: 2rem;
+        }
+    
+    #intro-container {
+        background: linear-gradient(90deg, #c5192d 50%, whitesmoke 50%);
+        max-width: 85vw;
+        margin: auto;
+        padding: 2rem;
+        box-sizing: border-box;
+        list-style: none;
+        border-bottom: 1px solid darkgrey;
+    }
+
+    #intro-container > div:nth-child(1) {
+        float: left;
+        width: 50%;
+        padding-right: 2rem;
+        box-sizing: border-box;
+    }
+
+    #intro-container > div:nth-child(2) {
+        content: "";
+        display: table;
+        box-sizing: border-box;
+    }
+
+    li {
+        max-width: 70ch;
+        line-height: 1.5;
+        font-size: 1.2rem;
+        padding-left: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    li:nth-child(1)::marker {
+        content: "\1F64C";
+        padding-left: 1rem;
+    }
+
+    li:nth-child(2)::marker {
+        content: "\1F3EB";
+    }
+
+    li:nth-child(3)::marker {
+        content: "\1F4DA";
+    }
+
+    article:nth-child(2) {
+        padding: 2rem;
+        max-width: 85vw;
+        margin: auto;
+        border-bottom: 1px solid darkgrey;
+        column-count: 2;
+        column-width: 45%;
+        column-gap: 10%;
+    }
+
+    article:nth-child(2) > img {
+        width: 100%;
+    }
+
+    article:nth-child(3) {
+        padding: 2rem;
+        margin: auto;
+        border-bottom: 1px solid darkgrey;
+        column-count: 2;
+        column-width: 45%;
+        column-gap: 10%;
+    }
+    
+    article:nth-child(3) > img {
+        width: 100%;
+    }
+
+
+    article:nth-child(4) {
+        padding: 2rem;
+        max-width: 85vw;
+        margin: auto;
+        border-bottom: 1px solid darkgrey;
+        column-count: 2;
+        column-width: 45%;
+        column-gap: 10%;
+    }
+    
+    article:nth-child(4) > img {
+        width: 100%;
+    }
+
+    footer {
+        background-color: #c5192d;
+        color: white;
+        margin: auto;
+        text-align: center;
+        padding: 2rem;
+        overflow-wrap: break-word;
+        max-width: 85vw;
+        box-sizing: border-box;
+        }
+
+    a:link {
+        color:white;
+    }
+
+}
+
+@media only screen and (min-width: 960px) {
+    body {
+        background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        font-family: 'Lato', 'sans-serif';
+        font-size: 24px;
+    }
+
+    h1,h2,h3 {
+        font-family: 'Montserrat-bold', sans-serif;
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    h2 {
+        font-size: 2.2rem;
+    }
+
+    p {
+        max-width: 70ch;
+        line-height: 1.5;
+        font-size: 1.2rem;
+    }
+
+    header {
+        height: 65vh;
+        background-image: url('/assets/img/studentsbg.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        margin-bottom: 6rem;
+    }
+    
+    header > div {
+        background-color: #c5192d;
+        position: absolute;
+        color: white;
+        text-align: center;
+        padding: 2rem;
+        max-width: 70vw;
+        box-sizing: border-box;
+        bottom: -4rem;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        overflow-wrap: break-word;
+    }
+    
+    main {
+        box-shadow: 0px 0px 0px 1px darkgrey;
+        background: whitesmoke;
+        max-width: 70vw;
+        margin: auto;
+        margin-bottom: 2rem;
+        }
+    
+    #intro-container {
+        background: linear-gradient(90deg, #c5192d 50%, whitesmoke 50%);
+        max-width: 70vw;
+        margin: auto;
+        padding: 2rem;
+        box-sizing: border-box;
+        list-style: none;
+        border-bottom: 1px solid darkgrey;
+    }
+
+    #intro-container > div:nth-child(1) {
+        float: left;
+        width: 50%;
+        padding-right: 2rem;
+        box-sizing: border-box;
+    }
+
+    #intro-container > div:nth-child(2) {
+        content: "";
+        display: table;
+        box-sizing: border-box;
+    }
+
+    li {
+        max-width: 70ch;
+        line-height: 1.5;
+        font-size: 1.2rem;
+        padding-left: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    li:nth-child(1)::marker {
+        content: "\1F64C";
+        padding-left: 1rem;
+    }
+
+    li:nth-child(2)::marker {
+        content: "\1F3EB";
+    }
+
+    li:nth-child(3)::marker {
+        content: "\1F4DA";
+    }
+
+    article:nth-child(2) {
+        padding: 2rem;
+        max-width: 70vw;
+        margin: auto;
+        border-bottom: 1px solid darkgrey;
+        column-count: 2;
+        column-width: 45%;
+        column-gap: 10%;
+    }
+
+    article:nth-child(2) > img {
+        width: 100%;
+    }
+
+    article:nth-child(3) {
+        padding: 2rem;
+        margin: auto;
+        border-bottom: 1px solid darkgrey;
+        column-count: 2;
+        column-width: 45%;
+        column-gap: 10%;
+    }
+    
+    article:nth-child(3) > img {
+        width: 100%;
+    }
+
+
+    article:nth-child(4) {
+        padding: 2rem;
+        max-width: 85vw;
+        margin: auto;
+        border-bottom: 1px solid darkgrey;
+        column-count: 2;
+        column-width: 45%;
+        column-gap: 10%;
+    }
+    
+    article:nth-child(4) > img {
+        width: 100%;
+    }
+
+    footer {
+        background-color: #c5192d;
+        color: white;
+        margin: auto;
+        text-align: center;
+        padding: 2rem;
+        overflow-wrap: break-word;
+        max-width: 70vw;
+        box-sizing: border-box;
+        }
+
+    a:link {
+        color:white;
+    }
+
+}
