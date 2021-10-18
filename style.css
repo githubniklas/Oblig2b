@@ -244,7 +244,6 @@
         margin: auto;
         border-bottom: 1px solid darkgrey;
         column-count: 2;
-        column-width: 45%;
         column-gap: 10%;
     }
 
@@ -257,7 +256,6 @@
         margin: auto;
         border-bottom: 1px solid darkgrey;
         column-count: 2;
-        column-width: 45%;
         column-gap: 10%;
     }
     
@@ -272,7 +270,6 @@
         margin: auto;
         border-bottom: 1px solid darkgrey;
         column-count: 2;
-        column-width: 45%;
         column-gap: 10%;
     }
     
@@ -337,7 +334,6 @@
         background-color: #c5192d;
         position: absolute;
         color: white;
-        text-align: center;
         padding: 2rem;
         max-width: 70vw;
         box-sizing: border-box;
@@ -347,6 +343,7 @@
         left: 0;
         right: 0;
         overflow-wrap: break-word;
+        text-align: center;
     }
     
     main {
@@ -407,7 +404,6 @@
         margin: auto;
         border-bottom: 1px solid darkgrey;
         column-count: 2;
-        column-width: 45%;
         column-gap: 10%;
     }
 
@@ -420,7 +416,6 @@
         margin: auto;
         border-bottom: 1px solid darkgrey;
         column-count: 2;
-        column-width: 45%;
         column-gap: 10%;
     }
     
@@ -435,7 +430,6 @@
         margin: auto;
         border-bottom: 1px solid darkgrey;
         column-count: 2;
-        column-width: 45%;
         column-gap: 10%;
     }
     
